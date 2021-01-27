@@ -1,0 +1,167 @@
+/***** TAG SELECTORS *****/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #effad3;
+}
+
+h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2rem;
+  color: #2d6187;
+}
+
+h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.7rem;
+  color: #2d6187;
+}
+
+hr {
+  border: dotted #00adb5 8px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+a {
+  color: #2d6187;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #effad3;
+}
+
+
+
+/***** CLASS SELECTORS *****/
+
+.header1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 5rem; /** 80px/16px x 100 = 500% OR 1em = 100% **/
+}
+
+.chinese {
+  position: relative;
+  bottom: 40px;
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 343.75%; /** 55px/16px x 100 = 343.75% **/
+  font-weight: normal;
+}
+
+.para1 {
+  position: relative;
+  bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 156.25%; /** 25px/16 x 100 = 156.25% **/
+  color: #effad3;
+}
+
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.top-container {
+    background-color: #00adb5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #fcf8e8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #00adb5;
+  padding: 20px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 500px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.music-note {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programhead {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: normal;
+   padding: 10px 30px 10px;
+   background-color: #28ABB9;
+   border: solid #28ABB9 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px auto 100px;
+}
+
+.contact-msg {
+  width: 50%;
+  margin: 40px auto 10px;
+}
+
+.copyright {
+  text-align: center;
+  color: #effad3;
+  font-size: 0.8rem;
+  margin-top: 50px;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
